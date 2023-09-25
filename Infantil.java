@@ -1,17 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package mediaescolar;
 
+package mediaescolar;
 import java.util.Scanner;
 
-
 public class Infantil {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -34,9 +26,7 @@ public class Infantil {
             System.out.println("Criança ="+nome+"encaminhar ao Infantil C");
         }else{
             System.out.println("Criança ="+nome+"Criança fora da Tabela");
-        }   
+        }    
         
-        
-    }
-    
+    }    
 }
